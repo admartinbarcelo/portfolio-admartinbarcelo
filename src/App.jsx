@@ -8,7 +8,7 @@ import Home from './components/home/Home';
 // import Qualification from './components/qualification/Qualification';
 // import ScrollUp from './components/scrollup/ScrollUp';
 // import Services from './components/services/Services';
-// import Skills from './components/skills/Skills';
+import Skills from './components/skills/Skills';
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
       <main className="main">
       <Home/>
       <About/>
+      <Skills/>
       </main>
     </>
     
