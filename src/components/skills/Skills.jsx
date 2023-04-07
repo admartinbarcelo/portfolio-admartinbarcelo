@@ -1,4 +1,5 @@
 import './skills.css'
+import Frontend from './Frontend';
 
 function Skills () {
     return(
@@ -7,6 +8,7 @@ function Skills () {
             <span className="section__subtitle">My technical level</span>
 
             <div className="skills_container container grid">
+            <Frontend/>
 
             </div>
         </section>
