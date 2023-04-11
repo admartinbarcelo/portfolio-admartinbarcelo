@@ -44,7 +44,7 @@ function Backend() {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">Postman</h3>
+              <h3 className="skills__name">Axios</h3>
             </div>
           </div>
 
@@ -52,7 +52,7 @@ function Backend() {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name"></h3>
+              <h3 className="skills__name">Postman</h3>
             </div>
           </div>
         </div>
