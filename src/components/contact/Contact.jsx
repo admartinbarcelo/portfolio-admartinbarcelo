@@ -49,7 +49,7 @@ function Contact() {
 
               <a
                 href="mailto:adrian.m.barcelo@gmail.com"
-                className="contact__button"
+                className="contact__button" target="_blank"
               >
                 Write me{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
@@ -64,7 +64,7 @@ function Contact() {
 
               <a
                 href="https://api.whatsapp.com/send?phone=+34610763301&text=Hello, Adrián!"
-                className="contact__button"
+                className="contact__button" target="_blank"
               >
                 Write me{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
@@ -79,7 +79,7 @@ function Contact() {
 
               <a
                 href="https://www.linkedin.com/in/admartinbarcelo/chat"
-                className="contact__button"
+                className="contact__button" target="_blank"
               >
                 Write me{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
@@ -89,7 +89,7 @@ function Contact() {
         </div>
 
         <div className="contact__content">
-          <h3 className="contact__title">Write me</h3>
+          <h3 className="contact__title">Write me directly</h3>
 
           <form ref={form} onSubmit={sendEmail} className="contact__form">
             <div className="contact__form-div">
