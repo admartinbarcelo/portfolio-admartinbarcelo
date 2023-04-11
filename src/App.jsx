@@ -1,7 +1,7 @@
 import "./App.css";
 import Header from "./components/header/Header";
 import About from "./components/about/About";
-// import Contact from './components/contact/Contact';
+import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import Work from "./components/Portfolio/Work";
 import Home from "./components/home/Home";
@@ -21,6 +21,7 @@ function App() {
         <About />
         <Skills />
         <Services />
+        <Contact/>
       </main>
 
       <Footer />
