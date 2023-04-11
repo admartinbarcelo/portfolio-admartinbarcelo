@@ -1,9 +1,17 @@
+import Work4 from "../../assets/MyPortfolio.png"
 import Work3 from "../../assets/DBjump.png";
 import Work2 from "../../assets/Clippy.png";
 import Work1 from "../../assets/Handsup.png";
 
 
 export const projectsData = [
+  {
+    id: 1,
+    image: Work4,
+    title: "My Portfolio",
+    category: "Frontend",
+    demoLink: ""
+  },
   {
     id: 1,
     image: Work1,
