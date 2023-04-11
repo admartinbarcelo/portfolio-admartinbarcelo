@@ -57,8 +57,7 @@ function Data() {
       </h1>
       <h3 className="home__subtitle">Web Developer</h3>
       <p className="home__description">
-        I'm creative Web Developer based in Barcelona, and I'm very passionate and
-        dedicated to my work.
+        I'm creative Web Developer based in Barcelona, passionate about developing functional, intuitive, and visually striking web applications.
       </p>
 
       <a href="#contact" className="button button--flex">

@@ -154,9 +154,9 @@ function Services() {
 
         <div className="services__content">
           <div>
-            <i className="uil uil-edit services__icon"></i>
+            <i className="uil uil-brain services__icon"></i>
             <h3 className="services__title">
-              Visual <br /> Designer
+            Mindset
             </h3>
           </div>
 
@@ -178,43 +178,37 @@ function Services() {
                 className="uil uil-times services__modal-close"
               ></i>
 
-              <h3 className="services__modal-title">Visual Designer</h3>
+              <h3 className="services__modal-title">Enthusiastic approach</h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience.Providing quality
-                work to clients and companies.
+              I have an open and proactive mindset that drives me to take on new challenges and continuously improve my skills. Learning and growing in this field is a passion of mine, and I'm constantly seeking out new opportunities to expand my knowledge and provide top-notch solutions. With strong communication and project management skills, I am a dedicated collaborator who's committed to delivering the best possible results.
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface.
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web page development.</p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    I create ux element interactions.
+                  Open and proactive mindset
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I position your company brand.
+                  Passion for continuous learning and improvement
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Design and mockups of products for companies.
+                  Strong communication and project management skills.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                  Dedication to delivering high-quality solutions.
                   </p>
                 </li>
               </ul>

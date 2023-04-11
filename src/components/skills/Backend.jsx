@@ -52,7 +52,7 @@ function Backend() {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">Axios</h3>
+              <h3 className="skills__name"></h3>
             </div>
           </div>
         </div>
@@ -61,3 +61,4 @@ function Backend() {
   );
 }
 export default Backend;
+
