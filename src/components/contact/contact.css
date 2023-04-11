@@ -107,6 +107,10 @@
   resize: none;
 }
 
+.sent__message {
+  margin-top: 20px;
+}
+
 /* Responsive */
 @media screen and (max-width: 576px) {
   .contact__info {

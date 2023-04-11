@@ -6,12 +6,28 @@ function Contact() {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs.sendForm(
+    emailjs
+      .sendForm(
         "service_hrpan55",
         "template_c09cm1s",
         form.current,
         "EGZs2_OW8JSGsU2ZT"
-    );
+      )
+      .then((result) => {
+        const formFields = form.current.elements;
+        formFields.name.value = "";
+        formFields.email.value = "";
+        formFields.message.value = "";
+
+        const button = e.target.querySelector("button");
+        const successMessage = document.createElement("div");
+        successMessage.classList.add("sent__message");
+        successMessage.innerHTML = `
+        <i class='bx bx-badge-check'></i>
+          <span>¡Message sent successfully!</span>
+        `;
+        button.parentNode.insertBefore(successMessage, button.nextSibling);
+      });
   };
   return (
     <section className="contact section" id="contact">
@@ -32,7 +48,7 @@ function Contact() {
               </span>
 
               <a
-                href="mailto:examplemail@gmail.com.com"
+                href="mailto:adrian.m.barcelo@gmail.com"
                 className="contact__button"
               >
                 Write me{" "}
@@ -56,12 +72,15 @@ function Contact() {
             </div>
 
             <div className="contact__card">
-              <i className="bx bxl-messenger contact__card-icon"></i>
+              <i className="bx bxl-linkedin-square contact__card-icon"></i>
 
-              <h3 className="contact__card-title">Messenger</h3>
-              <span className="contact__card-data">user.fb123</span>
+              <h3 className="contact__card-title">Linkedin</h3>
+              <span className="contact__card-data">admartinbarcelo</span>
 
-              <a href="https://m.me/crypticalcoder" className="contact__button">
+              <a
+                href="https://www.linkedin.com/in/admartinbarcelo/chat"
+                className="contact__button"
+              >
                 Write me{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
@@ -70,7 +89,7 @@ function Contact() {
         </div>
 
         <div className="contact__content">
-          <h3 className="contact__title">Write me your project</h3>
+          <h3 className="contact__title">Write me</h3>
 
           <form ref={form} onSubmit={sendEmail} className="contact__form">
             <div className="contact__form-div">
@@ -94,13 +113,13 @@ function Contact() {
             </div>
 
             <div className="contact__form-div contact__form-area">
-              <label className="contact__form-tag">Project</label>
+              <label className="contact__form-tag">Text</label>
               <textarea
-                name="project"
+                name="message"
                 cols="30"
                 rows="10"
                 className="contact__form-input"
-                placeholder="Write your project"
+                placeholder="Write here..."
               ></textarea>
             </div>
 
