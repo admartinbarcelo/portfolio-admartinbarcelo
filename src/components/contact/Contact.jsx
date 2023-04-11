@@ -63,7 +63,7 @@ function Contact() {
               <span className="contact__card-data">999-888-777</span>
 
               <a
-                href="https://api.whatsapp.com/send?phone=62214408789&text=Hello, more information!"
+                href="https://api.whatsapp.com/send?phone=+34610763301&text=Hello, Adrián!"
                 className="contact__button"
               >
                 Write me{" "}
