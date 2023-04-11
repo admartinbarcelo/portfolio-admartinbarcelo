@@ -45,7 +45,7 @@ function Footer () {
             </a>
   
             <a
-              href=""
+              href="https://www.instagram.com/admartinbarcelo/"
               className="footer__social-link"
               target="_blank"
             >
