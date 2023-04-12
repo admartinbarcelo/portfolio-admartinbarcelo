@@ -44,6 +44,9 @@
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-0-5);
   }
+  .work__tecnologies{
+    margin-bottom: var(--mb-1);
+  }
   
   .work__button {
     width: max-content;

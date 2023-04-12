@@ -89,7 +89,7 @@ function Contact() {
         </div>
 
         <div className="contact__content">
-          <h3 className="contact__title">Write me directly</h3>
+          <h3 className="contact__title">Write me a message</h3>
 
           <form ref={form} onSubmit={sendEmail} className="contact__form">
             <div className="contact__form-div">

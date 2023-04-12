@@ -1,0 +1,38 @@
+.bxl-react {
+  font-size: 36px;
+  color: #61dbfb;
+  margin-right: 5px;
+}
+.bxl-html5 {
+  font-size: 36px;
+  color: #e34f26;
+  margin-right: 5px;
+}
+
+.bxl-css3 {
+  font-size: 36px;
+  color: #1572b6;
+  margin-right: 5px;
+}
+.bxl-bootstrap {
+  font-size: 36px;
+  color: #7952b3;
+  margin-right: 5px;
+}
+
+.bxl-javascript {
+  font-size: 36px;
+  color: #f7df1e;
+  margin-right: 5px;
+}
+.bxl-mongodb {
+  font-size: 36px;
+  color: #47a248;
+  margin-right: 5px;
+}
+
+.bxl-nodejs {
+  font-size: 36px;
+  color: #339933;
+  margin-right: 5px;
+}

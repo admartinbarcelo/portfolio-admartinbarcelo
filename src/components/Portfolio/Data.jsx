@@ -1,8 +1,7 @@
-import Work4 from "../../assets/MyPortfolio.png"
+import Work4 from "../../assets/MyPortfolio.png";
 import Work3 from "../../assets/DBjump.png";
 import Work2 from "../../assets/Clippy.png";
 import Work1 from "../../assets/Handsup.png";
-
 
 export const projectsData = [
   {
@@ -10,28 +9,56 @@ export const projectsData = [
     image: Work4,
     title: "My Portfolio",
     category: "Frontend",
-    demoLink: ""
+    demoLink: "",
+    technologies: [
+      <i className="bx bxl-javascript"></i>,
+      <i className="bx bxl-react"></i>,
+      <i className="bx bxl-html5"></i>,
+      <i className="bx bxl-css3"></i>,
+    ],
   },
   {
     id: 1,
     image: Work1,
     title: "Hands Up",
     category: "Full Stack",
-    demoLink: "https://handsup-project.netlify.app/"
+    demoLink: "https://handsup-project.netlify.app/",
+    technologies: [
+      <i className="bx bxl-javascript"></i>,
+      <i className="bx bxl-react"></i>,
+      <i className="bx bxl-html5"></i>,
+      <i className="bx bxl-css3"></i>,
+      <i class='bx bxl-bootstrap' ></i>,
+      <i class="bx bxl-mongodb"></i>,
+      <i class="bx bxl-nodejs"></i>,
+    ],
   },
   {
     id: 2,
     image: Work2,
     title: "Clippy",
     category: "Backend",
-    demoLink: "https://clippy1.fly.dev/"
+    demoLink: "https://clippy1.fly.dev/",
+    technologies: [
+      <i className="bx bxl-javascript"></i>,
+      <i className="bx bxl-html5"></i>,
+      <i className="bx bxl-css3"></i>,
+      <i class='bx bxl-bootstrap' ></i>,
+      <i class="bx bxl-mongodb"></i>,
+      <i class="bx bxl-nodejs"></i>,
+    ],
   },
   {
     id: 3,
     image: Work3,
     title: "DB Jump",
     category: "Frontend",
-    demoLink: "https://eogimenez.github.io/dragonBall-Jump/"
+    demoLink: "https://eogimenez.github.io/dragonBall-Jump/",
+    technologies: [
+      <i className="bx bxl-javascript"></i>,
+      <i className="bx bxl-html5"></i>,
+      <i className="bx bxl-css3"></i>,
+    ],
   },
 ];
 
@@ -41,7 +68,7 @@ export const projectsNav = [
     name: "all",
   },
   {
-    name: "Full Stack"
+    name: "Full Stack",
   },
   {
     name: "Frontend",
