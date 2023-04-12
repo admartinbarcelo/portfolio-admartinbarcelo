@@ -60,7 +60,7 @@ function Contact() {
               <i className="bx bxl-whatsapp contact__card-icon"></i>
 
               <h3 className="contact__card-title">Whatsapp</h3>
-              <span className="contact__card-data">999-888-777</span>
+              <span className="contact__card-data">610-XXX-301</span>
 
               <a
                 href="https://api.whatsapp.com/send?phone=+34610763301&text=Hello, Adrián!"
