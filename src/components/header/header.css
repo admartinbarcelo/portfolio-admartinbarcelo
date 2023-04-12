@@ -39,6 +39,7 @@
 .nav__toggle{
     display: none;
 }
+
 .active-link,
 .nav__link:hover{
     color: var(--title-color-dark);
