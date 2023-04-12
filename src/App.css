@@ -1,11 +1,11 @@
-/*=============== GOOGLE FONTS ===============*/
+/* Google Font*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
-/*=============== VARIABLES CSS ===============*/
+/* VAR CSS */
 :root {
   --header-height: 3rem;
 
-  /*========== Colors ==========*/
+
   /*Color RGB*/
   --hue: 0;
   --sat: 0%;
@@ -15,11 +15,10 @@
   --body-color: rgb(249, 249, 249);
   --container-color: rgb(255, 255, 255);
 
-  /*========== Font and typography ==========*/
+  /* Font and typography */
   --body-font: "Poppins", sans-serif;
 
-  /*.5rem = 8px | 1rem = 16px ...*/
-  --big-font-size: 3.5rem;
+  --big-font-size: 3.1rem;
   --h1-font-size: 2.25rem;
   --h2-font-size: 1.5rem;
   --h3-font-size: 1.25rem;
@@ -28,13 +27,12 @@
   --smaller-font-size: 0.813rem;
   --tiny-font-size: 0.625rem;
 
-  /*========== Font weight ==========*/
+  /* Font weight */
   --font-normal: 400;
   --font-medium: 500;
   --font-semi-bold: 600;
 
-  /*========== Margenes Bottom ==========*/
-  /*.5rem = 8px | 1rem = 16px ...*/
+  /*Margenes Bottom */
   --mb-0-25: 0.25rem;
   --mb-0-5: 0.5rem;
   --mb-0-75: 0.75rem;
@@ -44,7 +42,7 @@
   --mb-2-5: 2.5rem;
   --mb-3: 3rem;
 
-  /*========== z index ==========*/
+  /* z index */
   --z-tooltip: 10;
   --z-fixed: 100;
   --z-modal: 1000;
@@ -63,7 +61,7 @@
   }
 }
 
-/*=============== BASE ===============*/
+/*CSS BASE */
 * {
   margin: 0;
   padding: 0;
@@ -113,7 +111,7 @@ img {
   height: auto;
 }
 
-/*=============== REUSABLE CSS CLASSES ===============*/
+/* REUSABLE CSS CLASSES */
 .section {
   padding: 6rem 0 2rem;
 }
@@ -134,7 +132,7 @@ img {
   text-align: center;
 }
 
-/*=============== LAYOUT ===============*/
+/* LAYOUT */
 .container {
   max-width: 968px;
   margin-left: auto;
@@ -146,7 +144,7 @@ img {
   gap: 1.5rem;
 }
 
-/*=============== BUTTONS ===============*/
+/* BUTTONS */
 .button {
   display: inline-block;
   background-color: var(--title-color);
@@ -169,8 +167,8 @@ img {
   align-items: center;
 }
 
-/*=============== BREAKPOINTS ===============*/
-/* For large devices */
+/*Responsive*/
+
 @media screen and (max-width: 992px) {
   .container {
     margin-left: var(--mb-1-5);
@@ -187,7 +185,6 @@ img {
   }
 }
 
-/* For medium devices */
 @media screen and (max-width: 768px) {
   body {
     margin: 0 0 var(--header-height) 0;
@@ -205,7 +202,6 @@ img {
 @media screen and (max-width: 576px) {
 }
 
-/* For small devices */
 @media screen and (max-width: 350px) {
   :root {
     --big-font-size: 2.25rem;
