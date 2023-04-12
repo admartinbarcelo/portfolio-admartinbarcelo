@@ -1,15 +1,79 @@
-/* Google Fonts */
+/*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
-/* CSS Base */
+/*=============== VARIABLES CSS ===============*/
+:root {
+  --header-height: 3rem;
+
+  /*========== Colors ==========*/
+  /*Color RGB*/
+  --hue: 0;
+  --sat: 0%;
+  --title-color: rgb(51, 51, 51);
+  --title-color-dark: rgb(0, 0, 0);
+  --text-color: rgb(119, 119, 119);
+  --body-color: rgb(249, 249, 249);
+  --container-color: rgb(255, 255, 255);
+
+  /*========== Font and typography ==========*/
+  --body-font: "Poppins", sans-serif;
+
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --big-font-size: 3.5rem;
+  --h1-font-size: 2.25rem;
+  --h2-font-size: 1.5rem;
+  --h3-font-size: 1.25rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.875rem;
+  --smaller-font-size: 0.813rem;
+  --tiny-font-size: 0.625rem;
+
+  /*========== Font weight ==========*/
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /*========== Margenes Bottom ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --mb-0-25: 0.25rem;
+  --mb-0-5: 0.5rem;
+  --mb-0-75: 0.75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 3rem;
+
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  --z-modal: 1000;
+}
+
+/* Responsive typography */
+@media screen and (max-width: 992px) {
+  :root {
+    --big-font-size: 2.75rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
+  }
+}
+
+/*=============== BASE ===============*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.html {
+
+html {
   scroll-behavior: smooth;
 }
+
 body,
 button,
 input,
@@ -17,10 +81,12 @@ textarea {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
 }
+
 body {
   background-color: var(--body-color);
   color: var(--text-color);
 }
+
 h1,
 h2,
 h3 {
@@ -47,7 +113,7 @@ img {
   height: auto;
 }
 
-/* Classes CSS */
+/*=============== REUSABLE CSS CLASSES ===============*/
 .section {
   padding: 6rem 0 2rem;
 }
@@ -68,7 +134,7 @@ img {
   text-align: center;
 }
 
-/* Layout */
+/*=============== LAYOUT ===============*/
 .container {
   max-width: 968px;
   margin-left: auto;
@@ -80,7 +146,7 @@ img {
   gap: 1.5rem;
 }
 
-/* Buttons */
+/*=============== BUTTONS ===============*/
 .button {
   display: inline-block;
   background-color: var(--title-color);
@@ -103,35 +169,8 @@ img {
   align-items: center;
 }
 
-/* Responsive Points */
-@media screen and (max-width: 350px) {
-  :root {
-    --big-font-size: 2.25rem;
-  }
-
-  .container {
-    margin-left: var(--mb-1);
-    margin-right: var(--mb-1);
-  }
-}
-
-@media screen and (max-width: 576px) {
-}
-
-@media screen and (max-width: 768px) {
-  body {
-    margin: 0 0 var(--header-height) 0;
-  }
-
-  .section {
-    padding: 2rem 0 4rem;
-  }
-
-  .section__subtitle {
-    margin-bottom: var(--mb-3);
-  }
-}
-
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
 @media screen and (max-width: 992px) {
   .container {
     margin-left: var(--mb-1-5);
@@ -148,61 +187,32 @@ img {
   }
 }
 
-/* CSS Variables */
-:root {
-  --header-height: 3rem;
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0 0 var(--header-height) 0;
+  }
+  
+  .section {
+    padding: 2rem 0 4rem;
+  }
 
-  /* Colors*/
-  --hue: 0;
-  --sat: 0%;
-  --title-color: rgb(51, 51, 51);
-  --title-color-dark: rgb(0, 0, 0);
-  --text-color: rgb(119, 119, 119);
-  --body-color: rgb(249, 249, 249);
-  --container-color: rgb(255, 255, 255);
-
-  /* Font & types */
-  --body-font: "Poppins", sans-serif;
-
-  --big-font-size: 3rem;
-  --h1-font-size: 2.25rem;
-  --h2-font-size: 1.5rem;
-  --h3-font-size: 1.25rem;
-  --normal-font-size: 1rem;
-  --small-font-size: 0.875rem;
-  --smaller-font-size: 0.813rem;
-  --tiny-font-size: 0.625rem;
-
-  /* Font weights */
-  --font-normal: 400;
-  --font-medium: 500;
-  --font-semi-bold: 600;
-
-  /* margins bottom */
-  --mb-0-25: 0.25rem;
-  --mb-0-5: 0.5rem;
-  --mb-0-75: 0.75rem;
-  --mb-1: 1rem;
-  --mb-1-5: 1.5rem;
-  --mb-2: 2rem;
-  --mb-2-5: 2.5rem;
-  --mb-3: 3rem;
-
-  /* Z-index */
-  --z-tooltip: 10;
-  --z-fixed: 100;
-  --z-modal: 1000;
+  .section__subtitle {
+    margin-bottom: var(--mb-3);
+  }
 }
 
-/* Responsive types */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 576px) {
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
   :root {
-    --big-font-size: 2.75rem;
-    --h1-font-size: 1.5rem;
-    --h2-font-size: 1.25rem;
-    --h3-font-size: 1rem;
-    --normal-font-size: 0.938rem;
-    --small-font-size: 0.813rem;
-    --smaller-font-size: 0.75rem;
+    --big-font-size: 2.25rem;
+  }
+
+  .container {
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
   }
 }
