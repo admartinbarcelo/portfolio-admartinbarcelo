@@ -55,7 +55,8 @@ function Data () {
       </h1>
       <h3 className="home__subtitle">Web Developer</h3>
       <p className="home__description">
-        I'm creative Web Developer based in Barcelona, passionate about developing functional, intuitive, and visually striking web applications.
+        I'm creative Web Developer based in Barcelona, passionate about developing functional, intuitive, and visually striking web applications.<br/> <br/>
+        <span className="home__phrase">" If you can imagine it, you can create it "</span>
       </p>
 
       <a href="#contact" className="button button--flex">
