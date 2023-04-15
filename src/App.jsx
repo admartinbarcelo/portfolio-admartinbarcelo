@@ -9,6 +9,7 @@ import Qualification from './components/qualification/Qualification';
 import ScrollUp from "./components/scrollup/ScrollUp";
 import Services from "./components/services/Services";
 import Skills from "./components/skills/Skills";
+import FollowMouse from "./components/mouse/FollowMouse";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Services />
         <Qualification />
         <Contact/>
+      <FollowMouse/>
       </main>
 
       <Footer />
