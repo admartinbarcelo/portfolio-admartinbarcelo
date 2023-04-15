@@ -16,10 +16,10 @@
 
 a:hover,
 button:hover {
-  animation: pulse 0.5s infinite alternate;
+  animation: scaleUp 0.3s ease-out forwards;
 }
 
-@keyframes pulse {
+@keyframes scaleUp {
   from {
     transform: scale(1);
   }
