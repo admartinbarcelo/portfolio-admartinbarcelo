@@ -33,20 +33,4 @@ function FollowMouse() {
 
 export default FollowMouse;
 
-.follow__mouse {
-  position: fixed;
-  background-color: rgba(0, 0, 0, 0.5);
-  border: 1px solid #fff;
-  border-radius: 50%;
-  opacity: 0.8;
-  pointer-events: none;
-  left: -25px;
-  top: -25px;
-  width: 50px;
-  height: 50px;
-  transform: translate(-50%, -50%);
-  z-index: 9999;
-  cursor: none;
-}
-
 
