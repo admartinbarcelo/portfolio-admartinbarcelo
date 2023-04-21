@@ -9,7 +9,7 @@ export const projectsData = [
     image: Work4,
     title: "My Portfolio",
     category: "Frontend",
-    demoLink: "https://admartinbarcelo.netlify.app/",
+    demoLink: "https://github.com/admartinbarcelo/portfolio-admartinbarcelo",
     technologies: [
       <i className="bx bxl-javascript"></i>,
       <i className="bx bxl-react"></i>,
