@@ -18,7 +18,6 @@ export const projectsData = [
       <img className="typescript__logo"src={TypeScript} alt="typescript" />,
       <i className="bx bxl-tailwind-css"></i>,
       <i className="bx bxl-html5"></i>,
-      <i className="bx bxl-css3"></i>,
     ],
   },
   {
