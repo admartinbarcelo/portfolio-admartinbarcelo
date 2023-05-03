@@ -16,6 +16,13 @@ function Social() {
         >
           <i className="uil uil-github-alt"></i>
         </a>
+        <a
+          href="https://www.instagram.com/admartinbarcelo/"
+          className="home__social-icon"
+          target="_blank"
+        >
+          <i className="uil uil-instagram-alt"></i>
+        </a>
       </div>
     );
   };
