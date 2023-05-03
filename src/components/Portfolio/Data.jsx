@@ -1,3 +1,4 @@
+import Work5 from "../../assets/Under-Construction.jpg";
 import Work4 from "../../assets/MyPortfolio.png";
 import Work3 from "../../assets/DBjump.png";
 import Work2 from "../../assets/Clippy.png";
@@ -8,7 +9,7 @@ export const projectsData = [
     id: 1,
     image: Work5,
     title: "Under Construction",
-    category: "Full Stack",
+    category: "Frontend",
     demoLink: "https://github.com/admartinbarcelo/Typescript-APP",
     technologies: [
       <i className="bx bxl-javascript"></i>,
@@ -17,13 +18,11 @@ export const projectsData = [
       <i class='bx bxl-tailwind-css'></i>,
       <i className="bx bxl-html5"></i>,
       <i className="bx bxl-css3"></i>,
-
-      
     ]
 
  },
   {
-    id: 1,
+    id: 2,
     image: Work4,
     title: "My Portfolio",
     category: "Frontend",
@@ -36,7 +35,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     image: Work1,
     title: "Hands Up",
     category: "Full Stack",
@@ -52,7 +51,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     image: Work2,
     title: "Clippy",
     category: "Backend",
@@ -67,7 +66,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     image: Work3,
     title: "DB Jump",
     category: "Frontend",
