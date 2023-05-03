@@ -37,12 +37,13 @@
   margin-right: 5px;
 }
 
-bxl-typescript {
+.bxl-typescript {
   font-size: 36px;
   color: #007acc;
   margin-right: 5px;
 }
-bxl-tailwind-css{
+
+.bxl-tailwind-css{
   font-size: 36px;
   color: #38b2ac;
   margin-right: 5px;

@@ -5,7 +5,7 @@ import Work2 from "../../assets/Clippy.png";
 import Work1 from "../../assets/Handsup.png";
 
 export const projectsData = [
- {
+  {
     id: 1,
     image: Work5,
     title: "Under Construction",
@@ -14,13 +14,12 @@ export const projectsData = [
     technologies: [
       <i className="bx bxl-javascript"></i>,
       <i className="bx bxl-react"></i>,
-      <i class='bx bxl-typescript' ></i>,
-      <i class='bx bxl-tailwind-css'></i>,
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAMlJREFUSEvtVUEOgzAMMy+DvQz2MtjLhjzhKWSpaEXLLvTCgdSuE7vt0Hh1jfFxOcEEoAcwnFD2BECcz/IK3ieAtXUB8GhJsDt4CwU3QZYNvq3/+wxouVdwZmXF/x+9/Y8U0M8E8UtB0pfBZN28hbS4RUqnAKwVo3BWIZA6qlBrfgJ81CJtiBTwn713LFEVBZac/a8+AwLq1pUSqaiiIHKYBp4ksC6x1pTf7TBtBvwbkiSIHJF1N2xFIk0+OCVgWbWXv8lZpyopWgGxVzsZDwN5aQAAAABJRU5ErkJggg=="/>,
+      <i className="bx bxl-tailwind-css"></i>,
       <i className="bx bxl-html5"></i>,
       <i className="bx bxl-css3"></i>,
-    ]
-
- },
+    ],
+  },
   {
     id: 2,
     image: Work4,
@@ -45,9 +44,9 @@ export const projectsData = [
       <i className="bx bxl-react"></i>,
       <i className="bx bxl-html5"></i>,
       <i className="bx bxl-css3"></i>,
-      <i class='bx bxl-bootstrap' ></i>,
-      <i class="bx bxl-mongodb"></i>,
-      <i class="bx bxl-nodejs"></i>,
+      <i className="bx bxl-bootstrap"></i>,
+      <i className="bx bxl-mongodb"></i>,
+      <i className="bx bxl-nodejs"></i>,
     ],
   },
   {
@@ -60,9 +59,9 @@ export const projectsData = [
       <i className="bx bxl-javascript"></i>,
       <i className="bx bxl-html5"></i>,
       <i className="bx bxl-css3"></i>,
-      <i class='bx bxl-bootstrap' ></i>,
-      <i class="bx bxl-mongodb"></i>,
-      <i class="bx bxl-nodejs"></i>,
+      <i className="bx bxl-bootstrap"></i>,
+      <i className="bx bxl-mongodb"></i>,
+      <i className="bx bxl-nodejs"></i>,
     ],
   },
   {
