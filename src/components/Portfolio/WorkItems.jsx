@@ -12,6 +12,10 @@ function WorkItems({ item }) {
         Demo
         <i className="bx bx-right-arrow-alt work__button-icon"></i>
       </a>
+      <a href={item.repoLink} className="work__button" target="_blank">
+        Repository
+        <i className="bx bx-right-arrow-alt work__button-icon"></i>
+      </a>
     </div>
   );
 }

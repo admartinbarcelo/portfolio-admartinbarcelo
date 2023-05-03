@@ -12,6 +12,7 @@ export const projectsData = [
     title: "Under Construction",
     category: "Frontend",
     demoLink: "https://github.com/admartinbarcelo/Typescript-APP",
+    repoLink: "",
     technologies: [
       <i className="bx bxl-javascript"></i>,
       <i className="bx bxl-react"></i>,
@@ -26,6 +27,7 @@ export const projectsData = [
     title: "My Portfolio",
     category: "Frontend",
     demoLink: "https://github.com/admartinbarcelo/portfolio-admartinbarcelo",
+    repoLink: "",
     technologies: [
       <i className="bx bxl-javascript"></i>,
       <i className="bx bxl-react"></i>,
@@ -39,6 +41,7 @@ export const projectsData = [
     title: "Hands Up",
     category: "Full Stack",
     demoLink: "https://handsup-project.netlify.app/",
+    repoLink: "",
     technologies: [
       <i className="bx bxl-javascript"></i>,
       <i className="bx bxl-react"></i>,
@@ -55,6 +58,7 @@ export const projectsData = [
     title: "Clippy",
     category: "Backend",
     demoLink: "https://clippy1.fly.dev/",
+    repoLink: "",
     technologies: [
       <i className="bx bxl-javascript"></i>,
       <i className="bx bxl-html5"></i>,
@@ -70,6 +74,7 @@ export const projectsData = [
     title: "DB Jump",
     category: "Frontend",
     demoLink: "https://eogimenez.github.io/dragonBall-Jump/",
+    repoLink: "",
     technologies: [
       <i className="bx bxl-javascript"></i>,
       <i className="bx bxl-html5"></i>,
