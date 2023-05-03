@@ -3,6 +3,7 @@ import Work4 from "../../assets/MyPortfolio.png";
 import Work3 from "../../assets/DBjump.png";
 import Work2 from "../../assets/Clippy.png";
 import Work1 from "../../assets/Handsup.png";
+import TypeScript from "../../assets/typescript-logo-36.png";
 
 export const projectsData = [
   {
@@ -14,7 +15,7 @@ export const projectsData = [
     technologies: [
       <i className="bx bxl-javascript"></i>,
       <i className="bx bxl-react"></i>,
-      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAMlJREFUSEvtVUEOgzAMMy+DvQz2MtjLhjzhKWSpaEXLLvTCgdSuE7vt0Hh1jfFxOcEEoAcwnFD2BECcz/IK3ieAtXUB8GhJsDt4CwU3QZYNvq3/+wxouVdwZmXF/x+9/Y8U0M8E8UtB0pfBZN28hbS4RUqnAKwVo3BWIZA6qlBrfgJ81CJtiBTwn713LFEVBZac/a8+AwLq1pUSqaiiIHKYBp4ksC6x1pTf7TBtBvwbkiSIHJF1N2xFIk0+OCVgWbWXv8lZpyopWgGxVzsZDwN5aQAAAABJRU5ErkJggg=="/>,
+      <img className="typescript__logo"src={TypeScript} alt="typescript" />,
       <i className="bx bxl-tailwind-css"></i>,
       <i className="bx bxl-html5"></i>,
       <i className="bx bxl-css3"></i>,
