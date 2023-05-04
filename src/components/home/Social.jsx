@@ -21,7 +21,7 @@ function Social() {
           className="home__social-icon"
           target="_blank"
         >
-          <i className="uil uil-instagram-alt"></i>
+          <i className="uil uil-instagram"></i>
         </a>
       </div>
     );
