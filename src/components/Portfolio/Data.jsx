@@ -1,3 +1,4 @@
+import Work6 from "../../assets/tic_tac_toe.png";
 import Work5 from "../../assets/Under-Construction.jpg";
 import Work4 from "../../assets/MyPortfolio.png";
 import Work3 from "../../assets/DBjump.png";
@@ -54,6 +55,20 @@ export const projectsData = [
   },
   {
     id: 4,
+    image: Work6,
+    title: "Tic Tac Toe",
+    category: "Frontend",
+    demoLink: "https://tic-tac-toe-admartin.netlify.app/",
+    repoLink: "https://github.com/admartinbarcelo/Tic-Tac-Toe",
+    technologies: [
+      <i className="bx bxl-javascript"></i>,
+      <i className="bx bxl-react"></i>,
+      <i className="bx bxl-html5"></i>,
+      <i className="bx bxl-css3"></i>,
+    ],
+  },
+  {
+    id: 5,
     image: Work2,
     title: "Clippy",
     category: "Backend",
@@ -69,7 +84,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     image: Work3,
     title: "DB Jump",
     category: "Frontend",
