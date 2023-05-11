@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./header.css";
-import Switch from "../switch/Switch";
+// import Switch from "../switch/Switch";
 
 function Header() {
   window.addEventListener("scroll", function () {
@@ -93,7 +93,6 @@ function Header() {
                 <i className="uil uil-message nav__icon"></i> Contact
               </a>
             </li>
-            <Switch /> 
           </ul>
 
           <i
