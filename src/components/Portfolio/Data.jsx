@@ -1,5 +1,5 @@
 import Work6 from "../../assets/tic_tac_toe.png";
-import Work5 from "../../assets/Under-Construction.jpg";
+import Work5 from "../../assets/evogym.png";
 import Work4 from "../../assets/MyPortfolio.png";
 import Work3 from "../../assets/DBjump.png";
 import Work2 from "../../assets/Clippy.png";
@@ -10,7 +10,7 @@ export const projectsData = [
   {
     id: 1,
     image: Work5,
-    title: "Under Construction",
+    title: "Gym Page",
     category: "Frontend",
     demoLink: "",
     repoLink: "https://github.com/admartinbarcelo/Typescript-APP",
