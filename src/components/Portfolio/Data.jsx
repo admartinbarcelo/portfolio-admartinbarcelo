@@ -12,7 +12,7 @@ export const projectsData = [
     image: Work5,
     title: "Gym Page",
     category: "Frontend",
-    demoLink: "",
+    demoLink: "https://gymsite-typescript.netlify.app/",
     repoLink: "https://github.com/admartinbarcelo/Typescript-APP",
     technologies: [
       <i className="bx bxl-javascript"></i>,
