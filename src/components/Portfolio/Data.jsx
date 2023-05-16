@@ -1,5 +1,5 @@
 import Work6 from "../../assets/tic_tac_toe.png";
-import Work5 from "../../assets/evogym.png";
+import Work5 from "../../assets/Mockup-gym.png";
 import Work4 from "../../assets/MyPortfolio.png";
 import Work3 from "../../assets/DBjump.png";
 import Work2 from "../../assets/Clippy.png";
