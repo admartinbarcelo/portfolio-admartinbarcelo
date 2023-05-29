@@ -38,9 +38,10 @@ function Services() {
 
               <h3 className="services__modal-title">Frontend Developer</h3>
               <p className="services__modal-description">
-                I have experience in front-end technologies such as JavaScript,
-                React, HTML, CSS, and Bootstrap, and I have worked on creating
-                and implementing the visual elements of a website. <br />
+                I have experience in front-end technologies such as
+                TypeScript, JavaScript, React, HTML, CSS, and Bootstrap, and I
+                have worked on creating and implementing the visual elements of
+                a website. <br />
                 Although I am still gaining experience, I have a solid
                 understanding of the software development lifecycle and best
                 development practices, and I work well under the guidance of
@@ -108,43 +109,44 @@ function Services() {
 
               <h3 className="services__modal-title">Backend Developer</h3>
               <p className="services__modal-description">
-                As a backend developer, I have experience building
-                server-side applications using technologies such as Javascript,
-                NodeJS, ExpressJS, MongoDB, and Postman. I am skilled in
-                creating web servers using NodeJS, and utilizing ExpressJS to
-                handle HTTP requests and routing. In addition, I am proficient
-                in working with MongoDB as a NoSQL database to store and
-                retrieve data. Furthermore, I have experience testing API
-                endpoints with Postman, as well as using npm and Git for package
-                and code management.
+                As a backend developer, I have experience building server-side
+                applications using technologies such as Javascript, NodeJS,
+                ExpressJS, MongoDB, and Postman. I am skilled in creating web
+                servers using NodeJS, and utilizing ExpressJS to handle HTTP
+                requests and routing. In addition, I am proficient in working
+                with MongoDB as a NoSQL database to store and retrieve data.
+                Furthermore, I have experience testing API endpoints with
+                Postman, as well as using npm and Git for package and code
+                management.
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                  Developing server-side applications.
+                    Developing server-side applications.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                  Creating and maintaining web servers with NodeJS and ExpressJS
+                    Creating and maintaining web servers with NodeJS and
+                    ExpressJS
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                  Setting up and configuring databases.
+                    Setting up and configuring databases.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                  Using npm and Git for package and code management
+                    Using npm and Git for package and code management
                   </p>
                 </li>
               </ul>
@@ -155,9 +157,7 @@ function Services() {
         <div className="services__content">
           <div>
             <i className="uil uil-brain services__icon"></i>
-            <h3 className="services__title">
-            Mindset
-            </h3>
+            <h3 className="services__title">Mindset</h3>
           </div>
 
           <span onClick={() => toggleTab(3)} className="services__button">
@@ -180,35 +180,41 @@ function Services() {
 
               <h3 className="services__modal-title">Enthusiastic approach</h3>
               <p className="services__modal-description">
-              I have an open and proactive mindset that drives me to take on new challenges and continuously improve my skills. Learning and growing in this field is a passion of mine, and I'm constantly seeking out new opportunities to expand my knowledge and provide top-notch solutions. With strong communication and project management skills, I am a dedicated collaborator who's committed to delivering the best possible results.
+                I have an open and proactive mindset that drives me to take on
+                new challenges and continuously improve my skills. Learning and
+                growing in this field is a passion of mine, and I'm constantly
+                seeking out new opportunities to expand my knowledge and provide
+                top-notch solutions. With strong communication and project
+                management skills, I am a dedicated collaborator who's committed
+                to delivering the best possible results.
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                  Open and proactive mindset
+                    Open and proactive mindset
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                  Passion for continuous learning and improvement
+                    Passion for continuous learning and improvement
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                  Strong communication and project management skills.
+                    Strong communication and project management skills.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                  Dedication to delivering high-quality solutions.
+                    Dedication to delivering high-quality solutions.
                   </p>
                 </li>
               </ul>
