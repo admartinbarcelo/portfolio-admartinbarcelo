@@ -19,7 +19,7 @@ Si deseas ejecutar mi portafolio en tu computadora local, sigue estos pasos:
 
 1. Clona el repositorio:
 
-https://github.com/[tu_nombre_de_usuario]/mi-portafolio.git
+https://github.com/admartinbarcelo/portfolio-admartinbarcelo.git
 
 2. Instala las dependencias necesarias:
 
