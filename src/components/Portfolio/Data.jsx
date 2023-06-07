@@ -1,3 +1,4 @@
+import Work7 from "../../assets/Under-Construction.jpg";
 import Work6 from "../../assets/tic_tac_toe.png";
 import Work5 from "../../assets/Mockup-gym.png";
 import Work4 from "../../assets/Mockup-portfolio.png";
@@ -7,6 +8,22 @@ import Work1 from "../../assets/Handsup.png";
 import TypeScript from "../../assets/typescript-logo-36.png";
 
 export const projectsData = [
+  {
+    id: 1,
+    image: Work7,
+    title: "NeatFitCouple Project",
+    category: "Frontend",
+    demoLink: "",
+    repoLink: "https://github.com/admartinbarcelo/NeatFitCouple-Project",
+    technologies: [
+      <i className="bx bxl-javascript"></i>,
+      <i className="bx bxl-react"></i>,
+      <i className="bx bxl-html5"></i>,
+      <i className="bx bxl-css3"></i>,
+    ],
+  },
+
+
   {
     id: 1,
     image: Work5,
