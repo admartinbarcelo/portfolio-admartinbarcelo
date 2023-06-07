@@ -13,7 +13,7 @@ export const projectsData = [
     image: Work7,
     title: "NeatFitCouple Project",
     category: "Frontend",
-    demoLink: "",
+    // demoLink: "",
     repoLink: "https://github.com/admartinbarcelo/NeatFitCouple-Project",
     technologies: [
       <i className="bx bxl-javascript"></i>,
