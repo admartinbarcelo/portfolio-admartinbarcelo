@@ -1,3 +1,4 @@
+import Work8 from "../../assets/brekkie.png";
 import Work7 from "../../assets/Under-Construction.jpg";
 import Work6 from "../../assets/tic_tac_toe.png";
 import Work5 from "../../assets/Mockup-gym.png";
@@ -10,6 +11,20 @@ import TypeScript from "../../assets/typescript-logo-36.png";
 export const projectsData = [
   {
     id: 1,
+    image: Work8,
+    title: "Brekkie",
+    category: "Frontend",
+    demoLink: "https://brekkie.netlify.app/",
+    repoLink: "https://github.com/admartinbarcelo/Rest-Practice-BEM-CSS",
+    technologies: [
+      <i className="bx bxl-javascript"></i>,
+      <i className="bx bxl-react"></i>,
+      <i className="bx bxl-html5"></i>,
+      <i className="bx bxl-css3"></i>,
+    ],
+  },
+  {
+    id: 2,
     image: Work7,
     title: "NeatFitCouple Project",
     category: "Frontend",
@@ -25,7 +40,7 @@ export const projectsData = [
 
 
   {
-    id: 2,
+    id: 3,
     image: Work5,
     title: "Gym Page",
     category: "Frontend",
@@ -40,7 +55,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     image: Work4,
     title: "My Portfolio",
     category: "Frontend",
@@ -54,7 +69,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     image: Work1,
     title: "Hands Up",
     category: "Full Stack",
@@ -71,7 +86,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     image: Work6,
     title: "Tic Tac Toe",
     category: "Frontend",
@@ -85,7 +100,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     image: Work2,
     title: "Clippy",
     category: "Backend",
@@ -101,7 +116,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 7,
+    id: 8,
     image: Work3,
     title: "DB Jump",
     category: "Frontend",
