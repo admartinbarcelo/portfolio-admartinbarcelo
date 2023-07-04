@@ -34,7 +34,7 @@ function Backend() {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">Python <br/> <span className="skills__level">Studying</span></h3>
+              <h3 className="skills__name">Python</h3>
             </div>
           </div>
         </div>
@@ -68,7 +68,7 @@ function Backend() {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">Django <br/> <span className="skills__level">Studying</span></h3>
+              <h3 className="skills__name">Django</h3>
             </div>
 
             
