@@ -24,6 +24,7 @@ export const projectsData = [
       <i className="bx bxl-html5"></i>,
       <i className="bx bxl-css3"></i>,
       <img className="typescript__logo"src={TypeScript} alt="typescript" />,
+      
     ],
   },
   
