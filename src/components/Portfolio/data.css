@@ -48,3 +48,15 @@
   color: #38b2ac;
   margin-right: 5px;
 }
+
+.bxl-astro{
+  font-size: 36px;
+  color: #7b68ee; /* Un color que represente a Astro, por ejemplo, un azul medianoche */
+  margin-right: 5px;
+  /* Opcional: si quieres un gradiente de color, similar a tu ejemplo, puedes usar esto */
+  background: -webkit-linear-gradient(#483d8b, #6a5acd);
+  /* -webkit-background-clip: text; */
+  -webkit-text-fill-color: transparent;
+
+
+}

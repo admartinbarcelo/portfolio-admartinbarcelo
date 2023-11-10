@@ -1,3 +1,4 @@
+import Work9 from "../../assets/TechCoffe.jpg";
 import Work8 from "../../assets/brekkie.png";
 import Work7 from "../../assets/Under-Construction.jpg";
 import Work6 from "../../assets/tic_tac_toe.png";
@@ -10,7 +11,24 @@ import TypeScript from "../../assets/typescript-logo-36.png";
 
 export const projectsData = [
   {
-    id: 1,
+    id: 9,
+    image: Work9,
+    title: "Tech Coffe",
+    category: "Frontend",
+    // demoLink: '',
+    repoLink: 'https://github.com/admartinbarcelo/Coffe-Blogg',
+    technologies: [
+      <i className="bx bxl-javascript"></i>,
+      <i className="bx bxl-astro"></i>,
+      <i className="bx bxl-react"></i>,
+      <i className="bx bxl-html5"></i>,
+      <i className="bx bxl-css3"></i>,
+      <img className="typescript__logo"src={TypeScript} alt="typescript" />,
+    ],
+  },
+  
+  {
+    id: 8,
     image: Work8,
     title: "Brekkie",
     category: "Frontend",
@@ -24,7 +42,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 2,
+    id: 7,
     image: Work7,
     title: "NeatFitCouple Project",
     category: "Frontend",
@@ -40,7 +58,7 @@ export const projectsData = [
 
 
   {
-    id: 3,
+    id: 6,
     image: Work5,
     title: "Gym Page",
     category: "Frontend",
@@ -55,7 +73,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     image: Work4,
     title: "My Portfolio",
     category: "Frontend",
@@ -69,7 +87,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 5,
+    id: 4,
     image: Work1,
     title: "Hands Up",
     category: "Full Stack",
@@ -86,7 +104,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 6,
+    id: 3,
     image: Work6,
     title: "Tic Tac Toe",
     category: "Frontend",
@@ -100,7 +118,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 7,
+    id: 2,
     image: Work2,
     title: "Clippy",
     category: "Backend",
@@ -116,7 +134,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 8,
+    id: 1,
     image: Work3,
     title: "DB Jump",
     category: "Frontend",
