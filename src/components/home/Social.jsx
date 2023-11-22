@@ -17,7 +17,7 @@ function Social() {
           <i className="uil uil-github-alt"></i>
         </a>
         <a
-          href="https://www.instagram.com/admartinbarcelo/"
+          href="https://www.instagram.com/admartintech/"
           className="home__social-icon"
           target="_blank"
         >

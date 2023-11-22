@@ -13,7 +13,7 @@ export const projectsData = [
   {
     id: 9,
     image: Work9,
-    title: "Tech Coffe",
+    title: "Tech Coffe (in progress)",
     category: "Frontend",
     // demoLink: '',
     repoLink: 'https://github.com/admartinbarcelo/Coffe-Blogg',
