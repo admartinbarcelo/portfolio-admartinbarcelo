@@ -84,7 +84,7 @@ function Backend() {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">Laravel</h3>
+              <h3 className="skills__name">MySql</h3>
             </div>
           </div>
         </div>
