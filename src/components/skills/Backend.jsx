@@ -37,6 +37,14 @@ function Backend() {
               <h3 className="skills__name">Python</h3>
             </div>
           </div>
+
+          <div className="skills__data">
+            <i class="bx bx-badge-check"></i>
+
+            <div>
+              <h3 className="skills__name">PhP</h3>
+            </div>
+          </div>
         </div>
 
         <div className="skills__group">
@@ -70,8 +78,14 @@ function Backend() {
             <div>
               <h3 className="skills__name">Django</h3>
             </div>
+          </div>
 
-            
+          <div className="skills__data">
+            <i class="bx bx-badge-check"></i>
+
+            <div>
+              <h3 className="skills__name">Laravel</h3>
+            </div>
           </div>
         </div>
       </div>
