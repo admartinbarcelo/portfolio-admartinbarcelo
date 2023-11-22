@@ -36,6 +36,14 @@ function Frontend() {
               <h3 className="skills__name">HTML</h3>
             </div>
           </div>
+
+          <div className="skills__data">
+            <i className="bx bx-badge-check"></i>
+
+            <div>
+              <h3 className="skills__name">Figma</h3>
+            </div>
+          </div>
         </div>
 
         <div className="skills__group">
@@ -60,6 +68,14 @@ function Frontend() {
 
             <div>
               <h3 className="skills__name">Tailwind</h3>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i className="bx bx-badge-check"></i>
+
+            <div>
+              <h3 className="skills__name">Material UI</h3>
             </div>
           </div>
 
