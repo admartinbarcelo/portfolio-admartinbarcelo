@@ -16,11 +16,11 @@ function Qualification() {
         <div className="qualification__tabs">
           <div
             className={
-              toggleState === 1
+              toggleState === 2
                 ? "qualification__button qualification__active button--flex"
                 : "qualification__button button--flex"
             }
-            onClick={() => toggleTab(1)}
+            onClick={() => toggleTab(2)}
           >
             <i className="uil uil-graduation-cap qualification__icon"></i>
             Education
@@ -28,11 +28,11 @@ function Qualification() {
 
           <div
             className={
-              toggleState === 2
+              toggleState === 1
                 ? "qualification__button qualification__active button--flex"
                 : "qualification__button button--flex"
             }
-            onClick={() => toggleTab(2)}
+            onClick={() => toggleTab(1)}
           >
             <i className="uil uil-briefcase-alt qualification__icon"></i>
             Experience
@@ -42,7 +42,7 @@ function Qualification() {
         <div className="qualification__sections">
           <div
             className={
-              toggleState === 1
+              toggleState === 2
                 ? "qualification__content qualification__content-active"
                 : "qualification__content"
             }
@@ -104,7 +104,7 @@ function Qualification() {
 
           <div
             className={
-              toggleState === 2
+              toggleState === 1
                 ? "qualification__content qualification__content-active"
                 : "qualification__content"
             }
